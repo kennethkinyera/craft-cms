@@ -29,6 +29,9 @@ $cfg['Servers'][$i]['AllowNoPassword'] = false;
 $cfg['Servers'][$i]['ssl'] = true;
 $cfg['Servers'][$i]['ssl_ca'] = 'rds-combined-ca-bundle.pem';
 
+/*auth*/
+$cfg['Servers'][$i]['username'] = 'root';
+$cfg['Servers'][$i]['password'] = 'root';
 
 /**
  * Directories for saving/loading files from server
