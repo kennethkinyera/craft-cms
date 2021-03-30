@@ -1,7 +1,4 @@
-# https://github.com/kennethkinyera/craft-cms
-When you need a quick phpmyadmin, just run one in Gitpod. 
-
-The install commands are found in `install.sh`.
+# https://gitpod.io/#https://github.com/kennethkinyera/craft-cms
 
 To setup PHPMyAdmin for GitPod:
 
@@ -10,3 +7,6 @@ To setup PHPMyAdmin for GitPod:
 3. Click `Open Browser`
 4. At the browser, add /phpmyadmin to the end of the URL in the address bar
 5. Login with `Server`, `Username` and `Password`
+
+
+The install commands are found in `install.sh`.
