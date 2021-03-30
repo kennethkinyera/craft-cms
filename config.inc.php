@@ -32,8 +32,8 @@ $cfg['Servers'][$i]['ssl_ca'] = 'rds-combined-ca-bundle.pem';
 /*auth*/
 $cfg['Servers'][$i]['username'] = 'root';
 $cfg['Servers'][$i]['password'] = 'root';
-$cfg['Servers'][$i]['host']          = '127.0.0.1'; // MySQL hostname or IP address
-$cfg['Servers'][$i]['port']          = '';
+$cfg['Servers'][$i]['host']= 'localhost'; // MySQL hostname or IP address
+$cfg['Servers'][$i]['port']= '8001';
 
 /**
  * Directories for saving/loading files from server
